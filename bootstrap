@@ -1,7 +1,0 @@
-#!/bin/bash
-pwd
-echo "#####################"
-ls -al
-echo "#####################"
-cd /app
-./proxy http -p :$PORT -t ws --local-ws-password s84dj0js9hdwizwjkw3
